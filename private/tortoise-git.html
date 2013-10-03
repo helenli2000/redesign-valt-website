@@ -1,0 +1,35 @@
+<h1 id="guide-to-using-tortoisegit-with-github">Guide to Using TortoiseGIT with GitHub</h1>
+<ul>
+<li>Download and install Git from: <a href="http://git-scm.com/downloads">http://git-scm.com/downloads</a></li>
+<li>Using the Git Bash from the context menu (i.e., right mouse click on desktop), follow the instructions to set up the Username and Email for Git from: <a href="https://help.github.com/articles/set-up-git">https://help.github.com/articles/set-up-git</a></li>
+</ul>
+<p>Because GitHub uses SSH, here are the steps to set up SSH for TortoiseGIT:</p>
+<ul>
+<li>Set up your private and public SSH identification following these instructions: <a href="https://help.github.com/articles/generating-ssh-keys">https://help.github.com/articles/generating-ssh-keys</a></li>
+</ul>
+<p>The next steps are not strictly necessary. You will only need to do these if you want to have persistent SSH connection (so that you don't have to type your password every time you try to Git Push)</p>
+<ul>
+<li>Look inside your TortoiseGitdirectory, and run the program <code>puttygen.exe</code></li>
+<li>Under the menu item <code>Conversions</code>, select <code>Import Key</code></li>
+<li>Find the id_rsa file that you created in step (3), you will be prompted for your passphrase. Enter it.</li>
+<li>Change the field <code>Key comment</code> if you want to (I changed mine to <code>Remco Chang</code>)</li>
+<li>Click on <code>Save private key</code>. I saved mine as: id_rsa_putty.ppk (and left it in the same folder as id_rsa)</li>
+<li>IMPORTANT: bring up the TortoiseGit context menu, go to <code>settings</code>. Click on <code>Network</code>, and change the SSH Client to using TortoisePLink.exe. For me, the path is: C:Files.exe. Note that your TortoisePLink.exe should be in the same folder as pagent.exe. This is important for (14) below.</li>
+</ul>
+<h2 id="using-git">Using Git</h2>
+<ul>
+<li>First, find a directory where you would like to keep all of your local Git repositories. I have mine at Remco</li>
+<li>Inside this folder, right click in the window to bring up the context menu. Select <code>Git Clone</code></li>
+<li>For the URL, you can find the SSH URL in the github website. For example, for the Prospectus repository, go to: <a href="https://github.com/TuftsVALT/prospectus">https://github.com/TuftsVALT/prospectus</a>. Note that on the right hand side, there’s a SSH clone URL on the web page. Copy that string (which is: <code>git@github.com:TuftsVALT/prospectus.git</code>)</li>
+<li>Copy that string to the URL into the TortoiseGit clone menu. Modify the field for directory to fit your preference.</li>
+<li>Assuming that you did step (9), you will now be able to check the checkbox: <code>Load Putty Key</code>. Give the path to your id_rsa_putty.ppk file.</li>
+<li>That's it! You might be asked to type in your passphrase once. This, incidentally, will run Pagent.exe – you can see this program running in your system tray. Do not kill this process. Killing it will break your persistent SSH connection. You can verify the SSH key that you are using to connect to GitHub if you right click and select <code>View Keys</code>.</li>
+</ul>
+<h2 id="committing-pushing-and-pulling">Committing, Pushing, and Pulling</h2>
+<ul>
+<li>Recall that Git uses a 2-stage process: a local repository and a global repository. <em>Committing</em> is the term for checking in your changes to the local repository (on your computer); whereas <em>Pushing</em> checks your changes to the global repository (at GitHub). Note that you need to commit changes to your local repository before you can push the changes to the global server.</li>
+<li>To check in a change in TortoiseGit, you right click in the window, and select <code>Git Commit</code>. Add in some message (to describe the change). Otherwise the system won't let you perform the commit.</li>
+<li>A progress bar will appear. After a successful commit, click on the <code>Push</code> button on the lower left hand corner of this dialog box to check the changes into the global server.</li>
+<li>For most cases, you can just click on <code>OK</code> to upload the changes.</li>
+<li>Note that if the status says anything about how the process is not successful (or does not exit cleanly), it means that your local copy is not up to date. For such a case, do a <code>Pull</code> first to update your local repository. Once the <code>Pull</code> is completed, you can perform the <code>Push</code> again.</li>
+</ul>
