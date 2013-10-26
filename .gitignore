@@ -8,7 +8,6 @@ bvp6
 data
 dkee-sandbox
 dokuwiki-2012-10-13.tgz
-images
 interactionStudy
 loc
 public_html
@@ -17,3 +16,4 @@ test
 twt
 waldo
 wiki
+private/*
