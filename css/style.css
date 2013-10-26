@@ -126,3 +126,9 @@ div { text-align: left; display: block;}
 .span-24-border { width: 854px; padding: 10px; background-color: #eaeaea; }
 .span-24-wide { width: 854px; padding: 0; margin: 0;}
 
+
+/* alumni section*/
+.nameIndent{margin: 10px 0px 0px 200px;}
+.leftIndent{margin: 0px 0px 0px 200px;}
+.headerinfo{margin: 10px 10px 0px 50px; text-decoration:underline;}
+
