@@ -11,6 +11,8 @@ Your changes won't show up on the actual website immediately.
 
 Send an email to Lane if you need something updated immediately. Otherwise, he will be updating the site on /r/valt with the contents of this repo weekly.
 
+Note: you may need to chmod 664/775 new files so they can be accessed from the web.
+
 Where did my experiment directories go?!
 ----------
 
