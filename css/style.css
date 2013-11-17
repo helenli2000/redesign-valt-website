@@ -62,30 +62,114 @@ div { text-align: left; display: block;}
 #headerLeft  { position: relative; width: 464px; height: 3em; float: left;}
 #headerRight { position: relative; width: 400px; height: 3em; float: right; text-align: right;}
 
-#nav { width: 874px; height: 24px; margin: 0 0 15px 0; padding: 0;
-		background: #eaeaea;/*#272727;*/ }
-#nav ul { float: left; margin: 0; padding: 0; font-size:13px; 
-			list-style:none; width: 100%;}
-#nav ul li { display:block; text-align:left; float:left; }
-#nav li { margin: 0 10px 0 0; }
-#nav a { color: #444; text-decoration: none;}
+#nav { margin:0 0 15px 0; list-style:none;
 
-#home, #people, #projects, #publications { padding: 2px 10px 0 10px;}
-#home { border-top: solid 5px #f27c38; 
-			border-right: solid 1px #f27c38; }
-#home:hover { color: #f27c38; text-decoration: underline;}
+    /* Lucinda Grande is the font used on the website from Apple. */
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; letter-spacing:-0.5px; font-size:13px;
+    
+    /* Apply a subtle text-shadow to the text */
+    text-shadow: 0 -1px 3px #202020;
 
-#people { border-top: solid 5px #2992bc; 
-			border-right: solid 1px #2992bc; }
-#people:hover { color: #2992bc; text-decoration: underline;}
+    /* We want to add the shadow to the complete navigation menu. In order to do that, we'll need to set
+    the correct width and height, and also the correct borders, in order to create the perfect drop shadow */
+    width:874px; height:34px;
+    
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    
+    -moz-box-shadow: 0px 3px 3px #cecece;
+    -webkit-box-shadow: 0px 3px 3px #cecece;
+    box-shadow: 0 3px 4px #8b8b8b;
+}
 
-#projects { border-top: solid 5px #a1c800; 
-			border-right: solid 1px #a1c800; }
-#projects:hover { color: #9030AB; text-decoration: underline;}
+#nav li { display:block; float:left; border-right:1px solid #5d5d5d; border-left:1px solid #929292; width:217px; height:34px; border-bottom:1px solid #575757; border-top:1px solid #797979;
 
-#publications { border-top: solid 5px #9030AB; 
-			border-right: solid 1px #9030AB; }
-#publications:hover { color: #9030AB; text-decoration: underline;}
+    /* Gradient backgrounds for the buttons. Generated using http://gradients.glrzad.com/ */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #787878), color-stop(0.5, #5E5E5E), color-stop(0.51, #707070), color-stop(1, #838383));
+    background-image: -moz-linear-gradient(center bottom, #787878 0%, #5E5E5E 50%, #707070 51%, #838383 100%);
+    background-color:#5f5f5f; /* Fallback */
+}
+
+/* Set the states when hovering, except for the last item in the list (the search bar), since it doesn't need to change */
+#nav li:not(:last-child):hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3F3F3F), color-stop(0.5, #383838), color-stop(0.51, #434343), color-stop(1, #555555));
+    background-image: -moz-linear-gradient(center bottom, #3F3F3F 0%, #383838 50%, #434343 51%, #555555 100% );
+    background-color:#383838; /* Fallback */
+    
+    /* We use the inset of the box shadow to create a subtle inner glow when hovering */
+    -moz-box-shadow: inset 0 0 5px 5px #535353;
+    -webkit-box-shadow: inset 0 0 5px 5px #535353;
+    box-shadow: inset 0 0 5px 5px #535353;
+}
+
+/* When the user clicks the button, we simply change the box inset (compared to the "hover") */
+#nav li:not(:last-child):active {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3F3F3F), color-stop(0.5, #383838), color-stop(0.51, #434343), color-stop(1, #555555));
+    background-image: -moz-linear-gradient(center bottom, #3F3F3F 0%, #383838 50%, #434343 51%, #555555 100% );
+    background-color:#383838; /* Fallback */
+    
+    -moz-box-shadow: inset 0 1px 2px 2px #000;
+    -webkit-box-shadow: inset 0 1px 2px 2px #000;
+    box-shadow: inset 0 1px 2px 2px #000;
+}
+
+#nav li a { color:white; text-decoration:none; text-align:center; display:block; line-height:34px; outline:none; }
+
+/* Styling of the search field */
+/*
+#nav form input { width:76px; height:20px; margin-left:9px; margin-top:8px; border:none; padding-left:20px; padding-right:10px; color:#eee;
+
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+
+    /* We use the CSS3 multiple backgrounds for the input field: The magnifier image and the gradient background */    
+   /*  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3F3F3F), color-stop(0.5, #383838), color-stop(0.51, #434343), color-stop(1, #555555));
+    background-image: -moz-linear-gradient(center bottom, #3F3F3F 0%, #383838 50%, #434343 51%, #555555 100% );
+    background-repeat: no-repeat;
+    
+    background-color:#6E6E6E; /* Fallback */
+    
+   /* -moz-box-shadow: inset 0 2px 1px 1px #363636;
+    -webkit-box-shadow: inset 0 2px 1px 1px #363636;
+    box-shadow: inset 0 2px 1px 1px #363636;
+}*/
+
+/* Rounded corner for the first in last item. Shorthand: Top left, Top right, Bottom right, Bottom left.
+We also remove the borders, since they don't need them. */
+#nav li:first-child {
+    -moz-border-radius:4px 0 0 4px;
+    -webkit-border-radius:4px 0 0 4px;
+    border-radius:4px 0 0 4px;
+    
+    border-left:none;
+}
+
+/* The first child image - the logo - has to be centered. Because of the image dimensions, we manually need to shift it a bit. */
+#nav li:first-child a img {
+   vertical-align:middle; margin-top:-2px;
+}
+
+#nav li:last-child {
+    -moz-border-radius:0 4px 4px 0;
+    -webkit-border-radius:0 4px 4px 0;
+    border-radius:0 4px 4px 0;
+    
+    border-right:none;
+    
+    /* The width of the last menu item (search bar) is bigger than the others */
+    width:217;
+}
+/* Fade in animation (Webkit only) */
+@-webkit-keyframes showMenu {
+    from { opacity: 0; top:-20px; }
+    to   { opacity: 1; }
+}
+
+#nav {
+     -webkit-animation: showMenu 1s; position:relative;/*comment out this line if you think the animation is distracting*/
+}
 
 /****************************************************************************+
 	* Common DIV classes
@@ -131,4 +215,3 @@ div { text-align: left; display: block;}
 .nameIndent{margin: 10px 0px 0px 200px;}
 .leftIndent{margin: 0px 0px 0px 200px;}
 .headerinfo{margin: 10px 10px 0px 50px; text-decoration:underline;}
-
