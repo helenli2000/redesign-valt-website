@@ -232,7 +232,7 @@ We also remove the borders, since they don't need them. */
                   -moz-border-radius:7px 7px 7px 7px;
                   -webkit-border-radius:7px 7px 7px 7px;
                   border-radius:7px 7px 7px 7px;}
-.span-24-wide { width: 854px; padding: 0; margin: 0; 
+.span-24-wide { width: 854px; padding: 0; margin: 0;
 }
 
 
