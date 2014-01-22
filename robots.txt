@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /studies/
+Disallow: /data/
+Disallow: /private/
+Disallow: /wiki/
