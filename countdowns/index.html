@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title> Countdowns </title>
+
+<style>
+body {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+  width: 960px;
+  height: 100%;
+  margin: 0px auto;
+}
+#countdown {
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  width: 960px;
+  margin-top: -2.5em;
+}
+</style>
+
+<div id="countdown">
+</div>
+
+<script src='countdown.min.js'></script>
+
+<script>
+  // TODO to add more countdowns, we need to make a deadlines.json file with the structure {"event": "VIS", "date": "2014,3,31,20"}. We can then build the page with d3.
+  function updateCountdown() {
+    var count = countdown( new Date(2014, 3, 31, 20) ).toString();
+    document.getElementById('countdown').innerHTML = "VIS: " + count;
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+</script>
