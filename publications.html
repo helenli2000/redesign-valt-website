@@ -1,52 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
+
 <head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>VALT - Visual Analytics Laboratory at Tufts</title>
-	<!--<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" 
-		media="screen, projection" />-->
-	<link rel="stylesheet" href="css/style.css" type="text/css"
-		media="screen, projection" />
+  <title>VALT - Publications</title>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 </head>
 
 <body>
-	
-<div id="container">
-	
-	<div id="header">
-		<div id="headerLeft">
-			<img src="images/logo.png" height = "100px"/>
-		</div>
-		<div id="headerRight">
-			<p> Visual Analytics Laboratory @ Tufts<br />
-			Fourth Floor<br />
-				196 Boston Avenue<br />
-				Medford, MA 02155
-			</p>
-		</div>
-	</div><br />
-	
-	<div id="nav">
-		<ul>
-			<li><a href="index.html" id="home">Home</a></li>
-			<li><a href="people.html" id="people">People</a></li>
-			<li><a href="projects.html" id="projects">Projects</a></li>
-			<li><a href="publications.html" id="publications">Publications</a></li>
-		</ul>
-	</div>
-	
-	<div id="topContent" class="span-24-border">
-
-		<div class="span-24 bg">
-			<p>Coming soon!</p> 
-		</bg>
-	</div>
-	<div id="footer">
-		
-	</div>
-</div>
-
+  <div id="publications"></div>
 </body>
+
+<script>
+  var pubs = [];
+
+  d3.csv("files/pubs.csv", function(d) { 
+    pubs = d;
+    publications();
+  });
+
+  function publications() {
+//    d3.select('#publications').selectAll('div')
+//      .data(pubs)
+//      .enter().append('div')
+//      .text(function(d){ return d.Title + '.' + d.Author + '.' + d.Journal + '.' + d.Year; });
+
+    var pubsdiv = document.getElementById('publications');
+
+    var allthepublications = ''
+
+    for(var i = 0; i < pubs.length; i++) {
+      var d = pubs[i];
+
+      var current = "<div>"
+      current = current + d.Title + '. ' + d.Author + '. ' + d.Journal + '. ' + d.Year;
+      current = current + "</div>"
+
+      allthepublications = allthepublications + current;
+    }
+
+    pubsdiv.innerHTML = allthepublications;
+  }
+
+</script>
 
 </html>
