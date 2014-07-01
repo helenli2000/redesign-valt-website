@@ -1,0 +1,16 @@
+body {
+  padding-top: 70px;
+}
+
+.pub {
+  margin-top: 16px;
+  margin-left: 48px;
+}
+
+.pubYear h4 {
+  margin-left: 16px;
+}
+
+.pubGroup h4 {
+  margin-left: 32px;
+}
