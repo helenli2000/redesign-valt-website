@@ -1,31 +1,82 @@
+/* document */
+body {
+  margin: 1em auto 4em 100px;
+  width: 860px;
+  color: #333;
+  font-family: "Istok Web", sans-serif;
+  text-rendering: optimizeLegibility;
+} 
+
+body > p {
+  width: 720px;
+}
+
+.main {
+  padding-left: 64px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* sidebar */
 .sidebar {
   position: fixed;
   left: 0;
   top: 0;
   padding-left: 16px;
-  padding-top: 8px;
-  padding-right: 4px;
+  padding-top: 16px;
+  padding-right: 8px;
   height: 100%;
+  width: 84px;
   background-color: white;
 }
 
-body {
-  padding-left: 80px;
+.sidebar a {
+  color: #156B87;
+  text-decoration: none;
 }
 
 .nav {
   margin-top: 32px;
 }
 
+.logo {
+  width: 84px;
+}
+
+/* publications */
 .pub {
   margin-top: 16px;
-  margin-left: 48px;
+  padding-bottom: 8px;
 }
 
-.pubYear h4 {
-  margin-left: 16px;
+.preview {
+  float: left;
+  margin-right: 16px;
+  margin-top: 2px;
+  height: 100%;
 }
 
-.pubGroup h4 {
-  margin-left: 32px;
+.preview img {
+  width: 128px;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.year {
+}
+
+.type {
+}
+
+.info {
+  display: table-cell;
+  line-height: 1.2em;
+  width: 700px;
 }

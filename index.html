@@ -6,21 +6,29 @@
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
 <style>
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(style.css);
 </style>
 
 <div class="sidebar">
-  <a href="/"><img src="img/logo.png" width="64px"/></a>
+
+  <a href="/"><img class="logo" src="img/logo-2.png"/></a>
 
   <div class="nav">
     <a href="/publications" class="at">publications</a><br>
-    <a href="/people" class="at">people</a><br>
     <a href="https://github.com/TuftsVALT" class="at">data/code</a><br>
+    <a href="/people" class="at">people</a><br>
   </div>
+
 </div>
 
-<div id="pubs"></div>
+<div class="main">
 
-<script src="src/pubs.js" charset="utf-8"></script>
+  <div id="pubs"></div>
+
+</div>
+
+<script src="js/pubs.js" charset="utf-8"></script>
 
 </html>

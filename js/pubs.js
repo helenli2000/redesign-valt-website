@@ -10,6 +10,8 @@
 
 var pubs;
 
+var GROUP_ORDER = ['Journal', 'Conference', 'Book Chapter', 'Miscellaneous'];
+
 d3.json('files/pubs.json', function(err, d) {
   if(err) console.log(err);
   else {
@@ -22,7 +24,9 @@ function structure(data) {
   // nest on type and year
   data = d3.nest()
     .key(function(d) { return d.Year; })
+    .sortKeys(d3.descending)
     .key(function(d) { return d.Category; })
+    .sortKeys(function(a,b) { return GROUP_ORDER.indexOf(a) - GROUP_ORDER.indexOf(b); })
     .entries(data);
 
   return data;
@@ -33,10 +37,10 @@ function buildYears(data) {
   var years = d3.select('#pubs').selectAll('.pubYear')
       .data(data)
       .enter().append('div')
-      .classed('pubYear', true);
+      .classed('year', true);
 
   // append year as header
-  years.append('h4').text(function(d) { return d.key; });
+  years.append('h3').text(function(d) { return d.key; });
 
   years.each(buildGroups);
 }
@@ -45,7 +49,7 @@ function buildGroups() {
   var groups = d3.select(this).selectAll('.pubGroup')
     .data(function(d) { return d.values; })
     .enter().append('div')
-    .classed('pubGroup', true);
+    .classed('type', true);
 
   groups.append('h4').text(function(d) { return d.key; });
 
@@ -59,20 +63,33 @@ function buildPubs() {
     .enter().append('div')
     .classed('pub', true);
 
+  // Add preview image
+  divs.each(buildPreviews)
+
+  var info = divs.append('div')
+    .classed('info', true);
+
   // append pub details
-  divs.append('div')
-    .classed('pubTitle', true)
+  info.append('div')
+    .classed('title', true)
     .text(function(d) { return d.Title; });
 
-  divs.append('div')
-    .classed('pubAuthor', true)
+  info.append('div')
+    .classed('author', true)
     .text(function(d) { return d.Author; });
 
-  divs.append('div')
-    .classed('pubJournal', true)
-    .text(function(d) { return d.Journal; });
+  info.append('div')
+    .classed('journal', true)
+    .text(function(d) { return d.Journal + ", " + d.Year; });
+}
 
-  divs.append('div')
-    .classed('pubYear', true)
-    .text(function(d) { return d.Year; });
+function buildPreviews() {
+  var preview = d3.select(this).append('div')
+    .classed('preview', true);
+
+  preview.append('a')
+    .attr('href', function(d) { return 'publications/'+d.Key+'/'; })
+  .append('img')
+    //.attr('src', function(d) { return 'img/' + d.key + '-preview.png'; });
+    .attr('src', function(d) { return 'img/placekitten.png'; });
 }
