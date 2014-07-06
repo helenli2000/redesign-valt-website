@@ -80,3 +80,8 @@ footer {
   line-height: 1.2em;
   width: 700px;
 }
+
+.suppEntry a {
+  color: #333;
+  text-decoration: none;
+}

@@ -13,11 +13,9 @@ var pubs;
 var GROUP_ORDER = ['Journal', 'Conference', 'Book Chapter', 'Miscellaneous'];
 
 d3.json('files/pubs.json', function(err, d) {
-  if(err) console.log(err);
-  else {
-    pubs = structure(d);
-    buildYears(pubs);
-  }
+  if(err) return console.log(err);
+  pubs = structure(d);
+  buildYears(pubs);
 });
 
 function structure(data) {
@@ -81,6 +79,8 @@ function buildPubs() {
   info.append('div')
     .classed('journal', true)
     .text(function(d) { return d.Journal + ", " + d.Year; });
+
+  info.each(buildSupplemental)
 }
 
 function buildPreviews() {
@@ -92,4 +92,31 @@ function buildPreviews() {
   .append('img')
     //.attr('src', function(d) { return 'img/' + d.key + '-preview.png'; });
     .attr('src', function(d) { return 'img/placekitten.png'; });
+}
+
+function buildSupplemental() {
+  // only add supplemental if the entry has it
+  var _d = d3.select(this).datum();
+
+  if( ! _d.supplemental ) return;
+
+  var len = _d.supplemental.length;
+
+  var supp = d3.select(this).append('div')
+    .classed('supplemental', true);
+
+  supp.selectAll('.suppEntry')
+    .data(function(d) { return d.supplemental; })
+  .enter().append('span')
+    .classed('suppEntry', true)
+    .html(function(d, i) {
+      var str = '';
+      if( d.ref )
+        str = str + '<a href=\"'+d.ref+'\">'+d.name+'</a>';
+      else
+        str = str + '<span>'+d.name+'</span>';
+      if(i !== len-1)
+        str = str + ' | ';
+      return str;
+    });
 }
