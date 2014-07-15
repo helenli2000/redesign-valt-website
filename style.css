@@ -25,6 +25,10 @@ body > p {
   font-size: xx-large;
 }
 
+#pubs {
+  font-size: medium;
+}
+
 #recentpubs {
   margin-top: 16px;
   width: 220px;
