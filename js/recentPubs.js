@@ -14,44 +14,37 @@ var GROUP_ORDER = ['Journal', 'Conference', 'Book Chapter', 'Miscellaneous'];
 
 d3.json('files/pubs.json', function(err, d) {
   if(err) return console.log(err);
+  d = filter(d);
   pubs = structure(d);
-  buildYears(pubs);
+  buildVenue(pubs);
 });
+
+
+function filter(data) {
+  data = data.sort(function(a, b) { return b.Year - a.Year; });
+  return data.slice(0, 9);
+}
 
 function structure(data) {
   // nest on type and year
   data = d3.nest()
-    .key(function(d) { return d.Year; })
-    .sortKeys(d3.descending)
-    .key(function(d) { return d.Category; })
-    .sortKeys(function(a,b) { return GROUP_ORDER.indexOf(a) - GROUP_ORDER.indexOf(b); })
+    .key(function(d) { return d.Journal; })
     .entries(data);
 
   return data;
 }
 
-function buildYears(data) {
+function buildVenue(data) {
   // first build by each type
-  var years = d3.select('#recentpubs').selectAll('.pubYear')
+  var venue = d3.select('#recentpubs').selectAll('.pubvenue')
       .data(data)
       .enter().append('div')
-      .classed('year', true);
+      .classed('venue', true);
 
   // append year as header
-  years.append('h3').text(function(d) { return d.key; });
+  venue.append('h3').text(function(d) { return d.key; });
 
-  years.each(buildGroups);
-}
-
-function buildGroups() {
-  var groups = d3.select(this).selectAll('.pubGroup')
-    .data(function(d) { return d.values; })
-    .enter().append('div')
-    .classed('type', true);
-
-  groups.append('h4').text(function(d) { return d.key; });
-
-  groups.each(buildPubs)
+  venue.each(buildPubs);
 }
 
 function buildPubs() {
