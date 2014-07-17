@@ -156,3 +156,29 @@ footer {
 }
  */
 
+/* people */
+#people {
+  width: 720px;
+}
+
+.dweller {
+  float: left;
+  width: 200px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  font-size: medium;
+}
+
+.dweller a {
+  text-decoration: none;
+  color: #000;
+}
+
+.headshot img {
+  border-radius: 8px;
+  height: 200px;
+}
+
+.headshot img:hover {
+  opacity: 0.8;
+}

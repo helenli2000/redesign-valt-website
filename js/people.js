@@ -10,9 +10,16 @@ function buildpeople() {
   var divs = d3.select('#people').selectAll('.dweller')
     .data(people)
     .enter().append('div')
-    .classed('dweller', true);
+    .classed('dweller', true)
+    .append('a')
+    .attr('href', function(d) { return d.link; });
 
   divs.append('div')
     .classed('headshot', true)
-    .text(function(d) { return d.img; });
+    .append('img')
+    .attr('src', function(d) { return d.img; });
+
+  divs.append('div')
+    .classed('info', true)
+    .html(function(d) { return d.name + '<br>' + d.title; });
 }
