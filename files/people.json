@@ -1,0 +1,38 @@
+[
+{
+  "name": "Remco Chang",
+  "title": "Assistant Professor",
+  "link": "http://www.cs.tufts.edu/~remco/",
+  "img": "img/remco-2.png"
+},
+{
+  "name": "Caroline Ziemkiewicz",
+  "title": "Visiting Researcher",
+  "link": "http://www.aptima.com/about/aptima-team/caroline-ziemkiewicz",
+  "img": "img/caroline.png"
+},
+{
+  "name": "Lane Harrison",
+  "title": "PostDoc",
+  "link": "http://www.eecs.tufts.edu/~lane/",
+  "img": "img/lane-2.jpg"
+},
+{
+  "name": "Eli Brown",
+  "title": "PhD Student",
+  "link": "http://www.eecs.tufts.edu/~ebrown/",
+  "img": "img/eli-2.png"
+},
+{
+  "name": "Alvitta Ottley",
+  "title": "PhD Student",
+  "link": "http://www.eecs.tufts.edu/~alvittao/",
+  "img": "img/alvitta-2.jpg"
+},
+{
+  "name": "Fumeng Yang",
+  "title": "PhD Student",
+  "link": "http://www.eecs.tufts.edu/~fyang/",
+  "img": "img/fm-2.jpg"
+}
+]
