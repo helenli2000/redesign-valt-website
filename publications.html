@@ -1,119 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>VALT - Visual Analytics Laboratory at Tufts</title>
-	<!--<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" 
-		media="screen, projection" />-->
-	<link rel="stylesheet" href="css/style.css" type="text/css"
-		media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="css/default.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <script src="js/modernizr.custom.js"></script>
-</head>
 
-<body>
-	
-<div id="container">
-	
-	<div id="header">
-		<div id="headerLeft">
-			<img src="images/logo-large-shadow-opacity.png" height = "100px"/>
-		</div>
-		<div id="headerRight">
-			<p> Visual Analytics Laboratory @ Tufts<br />
-			Fourth Floor<br />
-				196 Boston Avenue<br />
-				Medford, MA 02155
-			</p>
-		</div>
-	</div><br />
-	
-	<div id="nav">
-		<ul>
-			<li><a href="index.html" id="home">Home</a></li>
-			<li><a href="people.html" id="people">People</a></li>
-			<li><a href="projects.html" id="projects">Projects</a></li>
-			<li><a href="publications.html" id="publications">Publications</a></li>
-		</ul>
-	</div>
-	
-	<div id="topContent" class="span-24-border">
+<meta charset="utf-8">
+<title>VALT - Visual Analytics Laboratory at Tufts</title>
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
-		<div class="span-24 bg">
+<style>
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(style.css);
+</style>
 
-		<div class="main">
-			<ul class="cbp_tmtimeline">
-				<li><time class="cbp_tmtime" datetime="0000-00-00">
-						<span> 00/00</span>
-					</time>
-					<div class="cbp_tmicon "></div>
-					<div class="cbp_tmlabel">
-						<h2>Publication 1</h2>
-						<p>Description for Publication 1</p>
-					</div>
-			    </li>
-				<li><time class="cbp_tmtime" datetime="1111-11-11">
-						<span> 11/11</span>
-					</time>
-					<div class="cbp_tmicon "></div>
-					<div class="cbp_tmlabel">
-						<h2>Publication 2</h2>
-						<p>Description for Publication 2</p>
-					</div>
-                </li>
-						<li><time class="cbp_tmtime" datetime="2222-22-22">
-						<span>22/22</span>
-					</time>
-					<div class="cbp_tmicon "></div>
-					<div class="cbp_tmlabel">
-						<h2>Publication 3</h2>
-						<p>Description for Publication 3</p>
-					</div>
-                </li>
-                <li><time class="cbp_tmtime" datetime="1111-11-11">
-						<span> 11/11</span>
-					</time>
-					<div class="cbp_tmicon "></div>
-					<div class="cbp_tmlabel">
-						<h2>Publication 4</h2>
-						<p>Description for Publication 4</p>
-					</div>
-                </li>
-                <li><time class="cbp_tmtime" datetime="1111-11-11">
-						<span> 11/11</span>
-					</time>
-					<div class="cbp_tmicon "></div>
-					<div class="cbp_tmlabel">
-						<h2>Publication 5</h2>
-						<p>Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5
-						Description for Publication 5 Description for Publication 5</p>
-					</div>
-                </li>
-			</ul>
-		</div>
+<div class="sidebar">
 
-	<div style="text-align: center; clear: both"></div>
-		</bg>
-	</div>
-	<div id="footer">
-		
-	</div>
+  <a href="/"><img class="logo" src="img/logo-2.png"/></a>
+
+  <div class="nav">
+    <a href="/publications.html" class="at">publications</a><br>
+    <a href="https://github.com/TuftsVALT" class="at">data/code</a><br>
+    <a href="/people.html" class="at">people</a><br>
+  </div>
+
 </div>
 
-</body>
+<div class="main">
+
+  <div id="pubs"></div>
+
+</div>
+
+<script src="js/pubs.js" charset="utf-8"></script>
 
 </html>
