@@ -1,0 +1,187 @@
+/* document */
+body {
+  margin: 1em auto 4em 100px;
+  width: 1024px;
+  color: #333;
+  font-family: "Istok Web", sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: small;
+} 
+
+body > p {
+  width: 720px;
+}
+
+#header img {
+  width: 960px;
+  border-radius: 8px;
+}
+
+#header h1 {
+  position: absolute;
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.85);
+  padding-left: 32px;
+  font-size: xx-large;
+}
+
+#pubs {
+  font-size: medium;
+}
+
+#recentpubs {
+  margin-right: 32px;
+  width: 240px;
+  float: right;
+}
+
+.main {
+  padding-left: 32px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* sidebar */
+.sidebar {
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-right: 8px;
+  height: 100%;
+  width: 84px;
+  background-color: white;
+}
+
+.sidebar a {
+  color: #156B87;
+  text-decoration: none;
+}
+
+.nav {
+  margin-top: 32px;
+  text-align: right;
+}
+
+.logo {
+  width: 84px;
+}
+
+/* publications */
+.pub {
+  margin-top: 16px;
+  padding-bottom: 8px;
+}
+
+.preview {
+  float: left;
+  margin-right: 16px;
+  margin-top: 2px;
+  height: 100%;
+}
+
+.preview img {
+  width: 128px;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.year {
+}
+
+.type {
+}
+
+
+.info {
+  display: table-cell;
+  line-height: 1.2em;
+  width: 700px;
+}
+
+.suppEntry a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* updates / news */
+
+#news {
+  width: 720px;
+}
+
+.update {
+  margin-top: 32px;
+  padding-right: 32px;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: .5em;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.updateHead {
+  padding-bottom: 4px;
+  font-weight: bolder;
+}
+
+.updateText {
+  line-height: 1.2em;
+}
+
+.updateInfo {
+  padding-bottom: 8px;
+}
+
+.update img {
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+}
+
+/* 
+ * tufts brown: 522C1B
+ * tufts blue: 6699CC
+.update img:hover {
+  box-shadow: 2px 2px 18px #6699CC;
+}
+ */
+
+/* people */
+#people {
+  width: 720px;
+}
+
+.peopleGroup {
+  clear: left;
+}
+
+.dweller {
+  float: left;
+  width: 200px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  font-size: medium;
+}
+
+.dweller a {
+  text-decoration: none;
+  color: #000;
+}
+
+.headshot img {
+  border-radius: 10%;
+  height: 200px;
+}
+
+.headshot img:hover {
+  opacity: 0.8;
+}
