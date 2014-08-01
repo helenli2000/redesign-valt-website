@@ -160,6 +160,10 @@ footer {
   width: 720px;
 }
 
+.peopleGroup {
+  clear: left;
+}
+
 .dweller {
   float: left;
   width: 200px;
