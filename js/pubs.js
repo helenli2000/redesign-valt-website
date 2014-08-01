@@ -93,7 +93,7 @@ function buildPreviews() {
     //.attr('src', function(d) { return 'img/' + d.key + '-preview.png'; });
     .attr('src', function(d) { 
       if(d.img) return d.img;
-      else return 'img/placekitten.png'; 
+      else return 'img/logo-2.png'; 
     });
 }
 
