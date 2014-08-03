@@ -3,38 +3,38 @@
   "date": "11 July 2014",
   "head": "New Paper",
   "text": "Eli's paper, Finding Waldo: Learning about Users from their Interactions, accepted to IEEE VAST and TVCG!",
-  "img": "img/news/brown2014finding-news.png"
+  "img": "img/news/brown2014finding.png"
 },
 {
   "date": "11 July 2014",
   "head": "New Paper",
   "text": "Lane's paper, Ranking Visualizations of Correlation using Weber's Law, accepted to IEEE InfoVis and TVCG!",
-  "img": "img/ranking.png"
+  "img": "img/news/harrison2014ranking.png"
 },
 {
   "date": "10 June 2014",
   "head": "Special Event",
   "text": "<a href=\"http://web.media.mit.edu/~ishii/\">Hiroshi Ishii</a> speaks on Vision-Driven: Beyond Tangible Bits, Towards Radical Atoms   <a href=\"http://bostonchilabs.org/ishii.html\">at the VALT and HCI Labs</a>.",
-  "img": "img/ishii.jpg"
+  "img": "img/news/ishii.jpg"
 },
 {
   "date": "1 June 2014",
   "head": "Internship",
   "text": "Alvitta is heading to IBM Research in San Jose, CA this summer!",
-  "img": "img/ibm.png"
+  "img": "img/news/ibm.png"
 },
 {
 
   "date": "1 June 2014",
   "head": "Internship",
   "text": "Eli is heading to Microsoft Research in Redmond, WA this summer!",
-  "img": "img/msft.jpg"
+  "img": "img/news/msft.jpg"
 },
 {
 
   "date": "15 May 2014",
   "head": "New Grant",
   "text": "Remco receives a new grant from Tufts CTSI, <em>Development of the Prognosis Assessment for Active and Conservative Treatment Tool</em>.",
-  "img": "img/ctsi.jpg"
+  "img": "img/news/ctsi.jpg"
 }
 ]
