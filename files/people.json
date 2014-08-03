@@ -4,89 +4,89 @@
   "group": "Members",
   "title": "Assistant Professor",
   "link": "http://www.cs.tufts.edu/~remco/",
-  "img": "img/remco-2.png"
+  "img": "img/people/remco.png"
 },
 {
   "name": "Caroline Ziemkiewicz",
   "group": "Members",
   "title": "Visiting Researcher",
   "link": "http://www.aptima.com/about/aptima-team/caroline-ziemkiewicz",
-  "img": "img/caroline.png"
+  "img": "img/people/caroline.png"
 },
 {
   "name": "Lane Harrison",
   "group": "Members",
   "title": "PostDoc",
   "link": "http://www.eecs.tufts.edu/~lane/",
-  "img": "img/lane-2.jpg"
+  "img": "img/people/lane.jpg"
 },
 {
   "name": "Eli Brown",
   "group": "Members",
   "title": "PhD Candidate",
   "link": "http://www.eecs.tufts.edu/~ebrown/",
-  "img": "img/eli.jpg"
+  "img": "img/people/eli.jpg"
 },
 {
   "name": "Alvitta Ottley",
   "group": "Members",
   "title": "PhD Candidate",
   "link": "http://www.eecs.tufts.edu/~alvittao/",
-  "img": "img/alvitta-2.jpg"
+  "img": "img/people/alvitta.jpg"
 },
 {
   "name": "Fumeng Yang",
   "group": "Members",
   "title": "PhD Student",
   "link": "http://www.eecs.tufts.edu/~fyang/",
-  "img": "img/fm-2.jpg"
+  "img": "img/people/fumeng.jpg"
 },
 {
   "name": "Jared Chandler",
   "group": "Members",
   "title": "MS Student",
   "link": "http://www.eecs.tufts.edu/~chandler/",
-  "img": "img/jared.jpg"
+  "img": "img/people/jared.jpg"
 },
 {
   "name": "Rob Ruenes",
   "group": "Members",
   "title": "Undergrad",
   "link": "http://www.eecs.tufts.edu/~rruene01/",
-  "img": "img/ruenes.jpg"
+  "img": "img/people/ruenes.jpg"
 },
 {
   "name": "Rob Jacob",
   "group": "Affiliates",
   "title": "Professor, HCI Lab",
   "link": "http://www.cs.tufts.edu/~jacob/",
-  "img": "img/rob.png"
+  "img": "img/people/rob.png"
 },
 {
   "name": "Dan Afergan",
   "group": "Affiliates",
   "title": "PhD Candidate, HCI Lab",
   "link": "http://www.cs.tufts.edu/~afergan/",
-  "img": "img/dan.png"
+  "img": "img/people/dan.png"
 },
 {
   "name": "Jordan Crouser",
   "group": "Alumni",
   "title": "PhD, 2013<br>MIT Lincoln Laboratory",
   "link": "https://www.ll.mit.edu/mission/cybersec/computing/biographies/crouser-bio.html",
-  "img": "img/jordan.png"
+  "img": "img/people/jordan.png"
 },
 {
   "name": "Samuel Li",
   "group": "Alumni",
   "title": "MS, 2013<br>University of Oregon",
-  "img": "img/saml.jpg"
+  "img": "img/people/saml.jpg"
 },
 {
   "name": "Connor Gramazio",
   "group": "Alumni",
   "title": "BS, 2012<br>Brown University",
   "link": "http://gramaz.io",
-  "img": "img/connor.jpg"
+  "img": "img/people/connor.jpg"
 }
 ]
