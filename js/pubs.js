@@ -70,6 +70,8 @@ function buildPubs() {
   // append pub details
   info.append('div')
     .classed('title', true)
+    .append('a')
+    .attr('href', function(d) { return d.page ? d.page : null; })
     .text(function(d) { return d.Title; });
 
   info.append('div')
@@ -88,7 +90,7 @@ function buildPreviews() {
     .classed('preview', true);
 
   preview.append('a')
-    .attr('href', function(d) { return null; }) //'publications/'+d.Key+'/'; })
+    .attr('href', function(d) { return d.page ? d.page : null; }) //'publications/'+d.Key+'/'; })
   .append('img')
     .attr('src', function(d) { 
       if(d.img) return d.img;
