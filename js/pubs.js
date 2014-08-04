@@ -88,9 +88,8 @@ function buildPreviews() {
     .classed('preview', true);
 
   preview.append('a')
-    .attr('href', function(d) { return 'publications/'+d.Key+'/'; })
+    .attr('href', function(d) { return null; }) //'publications/'+d.Key+'/'; })
   .append('img')
-    //.attr('src', function(d) { return 'img/' + d.key + '-preview.png'; });
     .attr('src', function(d) { 
       if(d.img) return d.img;
       else return 'img/preview/preview-logo.png'; 
