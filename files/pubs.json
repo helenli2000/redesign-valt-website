@@ -6,8 +6,12 @@
   "Title":        "Finding Waldo: Learning about Users from their Interactions",
   "Journal":      "To Appear: IEEE Conference on Visual Analytics (VAST)",
   "Year":         "2014",
+  "page":         "papers/finding-waldo",
   "img":          "img/preview/brown2014finding-preview.png",
+  "teaser":       "img/teaser/brown2014finding.png",
+  "caption":      "Example caption",
   "abstract":     "Visual analytics is inherently a collaboration between human and computer. However, in current visual analytics systems, the computer has limited means of knowing about its users and their analysis processes. While existing research has shown that a user’s interactions with a system reflect a large amount of the user’s reasoning process, there has been limited advancement in developing automated, real-time techniques that mine interactions to learn about the user. In this paper, we demonstrate that we can accurately predict a user’s task performance and infer some user personality traits by using machine learning techniques to analyze interaction data. Specifically, we conduct an experiment in which participants perform a visual search task, and apply well-known machine learning algorithms to three encodings of the users’ interaction data. We achieve, depending on algorithm and encoding, between 62% and 83% accuracy at predicting whether each user will be fast or slow at completing the task. Beyond predicting performance, we demonstrate that using the same techniques, we can infer aspects of the user’s personality factors, including locus of control, extraversion, and neuroticism. Further analyses show that strong results can be attained with limited observation time: in one case 95% of the final accuracy is gained after a quarter of the average task completion time. Overall, our findings show that interactions can provide information to the computer about its human collaborator, and establish a foundation for realizing mixed- initiative visual analytics systems.",
+  "summary":     "Visual analytics requires cooperation between human and computer, but while computers can communicate vast amounts of information through their screens and speakers, humans communicate back with limited means, generally just a keyboard and mouse.  Those interactions are rich with information about the user, though.  Researchers have even been able to extract reasoning processes from interaction logs, but only with long tedious hours.  This project is all about automatically finding patterns in interaction data using machine learning.  In our TVCG 2014 paper, Finding Waldo: Learning About Users from their Interactions, we run an experiment to gather mouse interactions while participants play Where's Waldo, a visual search task.  We then produce three types of encodings of the interactions, encompassing (1) what part of the (image) data is shown to the user, (2) statistics about their raw mouse events, and (3) sequences of button clicks.  We apply machine learning and find that we can predict user performance at the Waldo task, and even infer some personality traits from this data.",
   "supplemental": [
     { "name":"pdf", "ref":"pdf/brown2014finding.pdf" }
   ]
@@ -21,7 +25,7 @@
   "Year":          "2014",
   "img":           "img/preview/harrison2014ranking.png",
   "supplemental":  [
-    { "name":"pdf", "ref":"pdf/brown2014finding.pdf" }
+    { "name":"pdf", "ref":"pdf/harrison2014ranking.pdf" }
   ]
 },
 {
@@ -32,6 +36,7 @@
   "Journal":       "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
   "Year":          "2014",
   "supplemental":  [
+    { "name":"pdf", "ref":"pdf/afergan2014dynamic.pdf" },
     { "name": "Best Paper Award Honorable Mention" }
   ]
 },
@@ -41,7 +46,10 @@
   "Author":    "Alvitta Ottley, R. Jordan Crouser, Caroline Ziemkiewicz, Remco Chang",
   "Title":     "Manipulating and Controlling for Personality Effects on Visualization Tasks",
   "Journal":   "Journal of Information Visualization (IVI)",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/ottley2013manipulating.pdf" }
+  ]
 },
 {
   "Category":  "Book Chapter",
@@ -49,7 +57,9 @@
   "Author":    "R. Jordan Crouser, Alvitta Ottley, Remco Chang",
   "Title":     "Balancing Human and Machine Contributions in Human Computation Systems",
   "Journal":   "Human Computation Handbook, Springer",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+  ]
 },
 {
   "Category":  "Book Chapter",
@@ -57,7 +67,9 @@
   "Author":    "Remco Chang, Caroline Ziemkiewicz",
   "Title":     "Algorithm Chapter Introduction",
   "Journal":   "Human Computation Handbook, Springer",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+  ]
 },
 {
   "Category":  "Conference",
@@ -65,7 +77,10 @@
   "Author":    "Leilani Battle, Remco Chang, Michael Stonebraker",
   "Title":     "Dynamic Reduction of Result Sets for Interactive Visualization",
   "Journal":   "IEEE Workshop on Big Data Visualization",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/battle2013dynamic.pdf" }
+  ]
 },
 {
   "Category":  "Conference",
@@ -73,7 +88,10 @@
   "Author":    "Evan M. Peck, Beste Yuksel, Alvitta Ottley, Robert Jacob, Remco Chang",
   "Title":     "Using fNIRS Brain Sensing to Evaluate Information Visualization Interfaces",
   "Journal":   "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/peck2013using.pdf" }
+  ]
 },
 {
   "Category":  "Conference",
@@ -81,7 +99,10 @@
   "Author":    "Lane Harrison, Drew Skau, Steven Franconeri, Aidong Lu, Remco Chang",
   "Title":     "Influencing Visual Judgment Through Affective Priming",
   "Journal":   "ACM SIGCHI Conference on Human Factors in Computing Systems (CHI)",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/harrison2013influencing.pdf" }
+  ]
 },
 {
   "Category":  "Conference",
@@ -89,7 +110,10 @@
   "Author":    "Alvitta Ottley, Evan M. Peck, Lane Harrison, Remco Chang",
   "Title":     "The Adaptive User: Priming to Improve Interaction",
   "Journal":   "ACM CHI Workshop on Many People Many Eyes",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/ottley2013adaptive.pdf" }
+  ]
 },
 {
   "Category":  "Conference",
@@ -97,7 +121,10 @@
   "Author":    "Daniel Afergan, Evan M. Peck, Remco Chang, Robert Jacob",
   "Title":     "Using Passive Input to Adapt Visualization Systems to the Individual",
   "Journal":   "ACM CHI Workshop on Many People Many Eyes",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/afergan2013using.pdf" }
+  ]
 },
 {
   "Category":  "Conference",
@@ -105,7 +132,10 @@
   "Author":    "R. Jordan Crouser, Jeremy G. Freeman, Andrew Winslow, Remco Chang",
   "Title":     "Exploring Agent-Based Simulations in Political Science Using Aggregate Temporal Graphs",
   "Journal":   "IEEE Pacific Visualization Symposium",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/crouser2013exploring.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -113,7 +143,10 @@
   "Author":    "J. Helen Zhao, Quan Lin, Alvitta Ottley, Remco Chang",
   "Title":     "Poster: Modeling User Interactions for Complex Visual Search Tasks",
   "Journal":   "Poster, IEEE Conference on Visual Analytics Science and Technology (VAST)",
-  "Year":      "2013"
+  "Year":      "2013",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/zhao2013modeling.pdf" }
+  ]
 },
 {
   "Category":  "Journal",
@@ -121,7 +154,10 @@
   "Author":    "R. Jordan Crouser, Remco Chang",
   "Title":     "An Affordance-based Framework for Human Computation and Human-Computer Collaboration",
   "Journal":   "VAST (IEEE Transactions on Visualization and Computer Graphics (TVCG))",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/crouser2012affordance.pdf" }
+  ]
 },
 {
   "Category":  "Journal",
@@ -129,7 +165,10 @@
   "Author":    "Caroline Ziemkiewcz, Alvitta Ottley, R. Jordan Crouser, AshleyYauilla, Sara Su, William Ribarsky, Remco Chang",
   "Title":     "How Visualization Layout Relates to Locus of Control and Other Personality Factors",
   "Journal":   "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/ziemkiewcz2012visualization.pdf" }
+  ]
 },
 {
   "Category":  "Journal",
@@ -137,7 +176,10 @@
   "Author":    "Wenwen Dou, Caroline Ziemkiewicz, Lane Harrison, Dong Hyun Jeong, William Ribarsky, Xiaoyu Wang, Remco Chang",
   "Title":     "Toward a Deeper Understanding of the Relationship Between Interaction Contraints and Visual Isomorphs",
   "Journal":   "Journal of Information Visualization (IVS)",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/dou2012toward.pdf" }
+  ]
 },
 {
   "Category":  "Journal",
@@ -145,7 +187,10 @@
   "Author":    "Caroline Ziemkiewcz, Alvitta Ottley, R. Jordan Crouser, Krysta Chauncey, Sara Su, Remco Chang",
   "Title":     "Understanding Visualization by Understanding Individual Users",
   "Journal":   "IEEE Computer Graphics and Applications Viewpoint (CG&A)",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/ziemkiewcz2012understanding.pdf" }
+  ]
 },
 {
   "Category":  "Conference",
@@ -153,7 +198,10 @@
   "Author":    "Eli T. Brown, Jingjing Liu, Carla Brodley, Remco Chang",
   "Title":     "Dis-function: Learning Distance Functions Interactively",
   "Journal":   "IEEE Conference on Visual Analytics Science and Technology (VAST)",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/brown2012disfunction.pdf" }
+  ]
 },
 {
   "Category":  "Conference",
@@ -161,7 +209,10 @@
   "Author":    "Evan M. Peck, Beste Yuksel, Lane Harrison, Alvitta Ottley, Remco Chang",
   "Title":     "ICD3: Towards a 3-Dimensional Model of Individual Cognitive Differences",
   "Journal":   "IEEE VisWeek BELIV Workshop (Beyond time and errors: novel evaluation methods for information visualization)",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/peck2012icd3.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -169,17 +220,20 @@
   "Author":    "Connor Gramazio, Remco Chang",
   "Title":     "Poster: Optimizing an SPT-Tree for Visual Analytics",
   "Journal":   "Poster, IEEE Conference on Visual Analytics Science and Technology (VAST)",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/gramazio2012optimizing.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
-  "Key":       "harrison2013exploring",
+  "Key":       "harrison2012exploring",
   "Author":    "Lane Harrison, Remco Chang, Aidong Lu",
   "Title":     "Poster: Exploring the Impact of Emotion on Visual Judgment",
   "Journal":   "Poster, IEEE Conference on Visual Analytics Science and Technology (VAST)",
   "Year":      "2012",
-  "Award":     "Best Poster Award",
   "supplemental":  [
+    { "name":"pdf", "ref":"pdf/harrison2012exploring.pdf" },
     { "name": "Best Poster Award" }
   ]
 },
@@ -189,7 +243,10 @@
   "Author":    "Alvitta Ottley, Caroline Ziemkiewicz, R. Jordan Crouser, Remco Chang",
   "Title":     "Poster: Priming Locus of Control to Affect Performance",
   "Journal":   "Poster, IEEE Conference on Visual Analytics Science and Technology (VAST)",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/ottley2012priming.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -197,7 +254,10 @@
   "Author":    "Daniel E. Kee, Liz Salowitz, Remco Chang",
   "Title":     "Poster: Comparing Interactive Web-based Visualization rendering techniques",
   "Journal":   "Poster, IEEE Conference on Information Visualization (InfoVis)",
-  "Year":      "2012"
+  "Year":      "2012",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/kee2012comparing.pdf" }
+  ]
 },
 {
   "Category":  "Journal",
@@ -205,7 +265,10 @@
   "Author":    "R. Jordan Crouser, Daniel E. Kee, Dong Hyun Jeong, Remco Chang",
   "Title":     "Two Visualization Tools for Analysis of Agent-Based Simulations in Political Science",
   "Journal":   "IEEE Computer Graphics and Applications Viewpoint (CG&A)",
-  "Year":      "2011"
+  "Year":      "2011",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/crouser2011two.pdf" }
+  ]
 },
 {
   "Category":  "Conference",
@@ -214,8 +277,8 @@
   "Title":     "How Locus of Control Influences Compatibility with Visualization Style",
   "Journal":   "IEEE Conference on Visual Analytics Science and Technology (VAST)",
   "Year":      "2011",
-  "Award":     "Honorable Mention Best Paper",
   "supplemental":  [
+    { "name":"pdf", "ref":"pdf/ziemkiewicz2011locus.pdf" },
     { "name": "Honorable Mention Best Paper" }
   ]
 },
@@ -225,7 +288,10 @@
   "Author":    "Wenwen Dou, Xiaoyu Wang, Remco Chang, William Ribarsky",
   "Title":     "Parallel Topics: A probabilistic Approach to Exploring Document Collections",
   "Journal":   "IEEE Conference on Visual Analytics Science and Technology (VAST)",
-  "Year":      "2011"
+  "Year":      "2011",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/dou2011parallel.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -234,8 +300,8 @@
   "Title":     "Poster: Near to the Brain: Functional Near-Infrared Spectroscopy as a Lightweight Brain Imaging Technique for Visualization",
   "Journal":   "Poster, IEEE Conference on Information Visualization (InfoVis)",
   "Year":      "2011",
-  "Award":     "Best Poster Award",
   "supplemental":  [
+    { "name":"pdf", "ref":"pdf/peck2011near.pdf" },
     { "name": "Best Poster Award" }
   ]
 },
@@ -245,7 +311,10 @@
   "Author":    "Garth Griffin, Shaomeng Li, Connor Gramazio, Remco Chang",
   "Title":     "Poster: An Analytical Approach for the Creative Design of New Visualizations",
   "Journal":   "Poster, IEEE Conference on Information Visualization (InfoVis)",
-  "Year":      "2011"
+  "Year":      "2011",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/griffin2011analytical.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -253,7 +322,10 @@
   "Author":    "Dong Hyun Jeong, Soo Yeon Ji, William Ribarsky, Remco Chang",
   "Title":     "Poster: A State Transition Approach to Understanding Users' Interactions",
   "Journal":   "Poster, IEEE Conference on Visual Analytics Science and Technology (VAST)",
-  "Year":      "2011"
+  "Year":      "2011",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/jeong2011state.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -261,7 +333,10 @@
   "Author":    "Jingjing Liu, Eli T. Brown, Remco Chang",
   "Title":     "Poster: Find Distance Function, Hide Model Inference",
   "Journal":   "Poster, IEEE Conference on Visual Analytics Science and Technology (VAST)",
-  "Year":      "2011"
+  "Year":      "2011",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/liu2011find.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -269,7 +344,10 @@
   "Author":    "R. Jordan Crouser, Jeremy G. Freeman, Remco Chang",
   "Title":     "Poster: Exploring Agent-Based Simulations Using Temporal Graphs",
   "Journal":   "Poster, IEEE Conference on Visual Analytics Science and Technology (VAST)",
-  "Year":      "2011"
+  "Year":      "2011",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/crouser2011exploring.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -277,7 +355,10 @@
   "Author":    "R. Jordan Crouser, Jeremy G. Freeman, Remco Chang",
   "Title":     "Computational Exploration of Simulations in Political Science",
   "Journal":   "SPIE Newsroom",
-  "Year":      "2011"
+  "Year":      "2011",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/crouser2011computational.pdf" }
+  ]
 },
 {
   "Category":  "Miscellaneous",
@@ -285,6 +366,9 @@
   "Author":    "Chris North, Remco Chang, Alex Endert, Wenwen Dou, Richard May, William Pike, Glenn Fink",
   "Title":     "Analytical Provenance: Process + Interaction + Insight",
   "Journal":   "ACM SIGCHI Workshop (Extended Abstracts)",
-  "Year":      "2011"
+  "Year":      "2011",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/north2011analytical.pdf" }
+  ]
 }
 ]

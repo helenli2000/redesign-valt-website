@@ -59,7 +59,7 @@ footer {
 }
 
 .sidebar a {
-  color: #156B87;
+  color: #6699CC;
   text-decoration: none;
 }
 
@@ -76,6 +76,11 @@ footer {
 .pub {
   margin-top: 16px;
   padding-bottom: 8px;
+}
+
+.title a {
+  color: #333;
+  text-decoration: none;
 }
 
 .preview {
@@ -117,6 +122,11 @@ footer {
 
 #news {
   width: 720px;
+}
+
+#news a {
+  color: #6699CC;
+  text-decoration: none;
 }
 
 .update {
