@@ -1,5 +1,16 @@
 [
 {
+  "Category":  "Conference",
+  "Key":       "brown2014eigensense",
+  "Author":    "Eli T Brown, Remco Chang",
+  "Title":     "EigenSense: Saving User Effort with Active Metric Learning",
+  "Journal":   "KDD 2014 Workshop on Interactive Data Exploration and Analytics",
+  "Year":      "2014",
+  "supplemental": [
+    { "name":"pdf", "ref":"pdf/brown2014eigensense.pdf" }
+  ]
+},
+{
   "Category":     "Conference",
   "Key":          "brown2014finding",
   "Author":       "Eli Brown, Alvitta Ottley, Jieqiong Zhao, Quan Lin, Alex Endert, Richard Souvenir, Remco Chang",
