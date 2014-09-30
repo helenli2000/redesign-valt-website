@@ -6,6 +6,7 @@
   "Title":     "EigenSense: Saving User Effort with Active Metric Learning",
   "Journal":   "KDD 2014 Workshop on Interactive Data Exploration and Analytics",
   "Year":      "2014",
+  "img":       "img/preview/brown2014eigensense-preview.png",
   "supplemental": [
     { "name":"pdf", "ref":"pdf/brown2014eigensense.pdf" }
   ]
