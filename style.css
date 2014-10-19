@@ -8,7 +8,7 @@ body {
   font-size: small;
 } 
 
-body > p {
+p {
   width: 720px;
 }
 
