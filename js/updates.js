@@ -8,6 +8,8 @@ d3.json('files/updates.json', function(err, d) {
 });
 
 function buildUpdates() {
+
+
   var divs = d3.select('#news').selectAll('.update')
     .data(updates)
     .enter().append('div')
@@ -27,11 +29,18 @@ function buildUpdates() {
 
   info.append('div')
     .classed('updateHead', true)
-    .text(function(d) { return d.head; });
+    .text(function(d) { 
+        return d.head; 
+    });
 
   info.append('div')
     .classed('updateText', true)
-    .html(function(d) { return d.text; });
+    .html(function(d) { 
+      if(d.more)
+         return d.text + '<a href = \"/publications.html#' + d.more + '\"> >> </a>';
+      else
+         return d.text;
+    });
 }
 
 function masonify() {

@@ -37,7 +37,12 @@ function buildPubs(data) {
   // append pub details
   info.append('div')
     .classed('title', true)
-    .text(function(d) { return d.Title; });
+    .html(function(d) { 
+      if(d.Key)
+        return '<a href = \"publications.html#' + d.Key + '\">' + d.Title + '</a>';
+      else
+        return d.Title; 
+    });
 
   info.append('div')
     .classed('author', true)

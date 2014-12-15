@@ -56,10 +56,12 @@ function buildGroups() {
 
 function buildPubs() {
   // Make pub divs
+
   var divs = d3.select(this).selectAll('.pub')
     .data(function(d) { return d.values; })
     .enter().append('div')
-    .classed('pub', true);
+    .classed('pub', true)
+    .attr('id', function(d){return d.Key});
 
   // Add preview image
   divs.each(buildPreviews)
@@ -72,7 +74,7 @@ function buildPubs() {
     .classed('title', true)
     .append('a')
     .attr('href', function(d) { return d.page ? d.page : null; })
-    .text(function(d) { return d.Title; });
+    .text(function(d) { return d.Title; })
 
   info.append('div')
     .classed('author', true)
@@ -86,9 +88,10 @@ function buildPubs() {
 }
 
 function buildPreviews() {
-  var preview = d3.select(this).append('div')
-    .classed('preview', true);
 
+  var preview = d3.select(this).append('div')
+    .classed('preview', true)
+  
   preview.append('a')
     .attr('href', function(d) { return d.page ? d.page : null; }) //'publications/'+d.Key+'/'; })
   .append('img')
