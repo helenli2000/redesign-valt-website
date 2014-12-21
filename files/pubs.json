@@ -47,6 +47,15 @@
 },
 {
   "Category":      "Conference",
+  "Key":           "staheli2014visualization",
+  "Author":        "Diane Staheli, Tamara Yu, Jordan Crouser, Suresh Damodaran, Kevin Nam, David O'Gwynn, Sean McKenna, Lane Harrison",
+  "Title":         "Visualization Evaluation for Cyber Security: Trends and Future Directions",
+  "Journal":       "Proceedings of the Eleventh International Symposium on Visualization for Cyber Security (VizSec)",
+  "Year":          "2014",
+  "img":           "img/preview/staheli2014visualization-preview.png"
+},
+{
+  "Category":      "Conference",
   "Key":           "afergan2014dynamic",
   "Author":        "Daniel Afergan, Evan M. Peck, Erin Solovey, Sam Hincks, AJ Jenkins, Eli T. Brown, Remco Chang, Robert Jacob",
   "Title":         "Dynamic Difficulty Using Brain Metrics of Workload",
