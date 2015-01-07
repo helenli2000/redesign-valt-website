@@ -1,0 +1,26 @@
+.detail {
+  width: 720px;
+}
+
+.detail .header h1 {
+  margin-bottom: -0.5em;
+}
+
+
+.detail .teaser {
+  margin: 32px 16px 32px 32px;
+}
+
+.detail .teaser img {
+  width: 700px;
+}
+
+.detail .teaser{
+  width: 500px;
+  margin: 8px 32px 0px 0px;
+}
+
+.caption {
+  width: 700px;
+}
+

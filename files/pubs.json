@@ -1,5 +1,22 @@
 [
 {
+  "Category":      "Conference",
+  "Key":           "harrison2014infographic",
+  "Author":        "Lane Harrison, Katharina Reinecke, Remco Chang",
+  "Title":         "Infographic Aesthetics: Designing for the First Impression",
+  "Journal":       "To Appear: Proc. ACM Human Factors in Computing Systems (CHI)",
+  "page":          "papers/infographic-aesthetics",
+  "Year":          "2014",
+  "img":           "img/preview/harrison2014infographic-preview.png",
+  "caption" :      "Average visual appeal ratings for different levels of colorfulness and complexity for females and males.",
+  "teaser":       "img/teaser/harrison2014infographic.png",
+  "abstract":     "Information graphics, or infographics, combine elements of data visualization with design and have become an increasingly popular means for disseminating data. While several studies have suggested that aesthetics in visualization and infographics relate to desirable outcomes such as engagement and memorability, it remains unknown how quickly aesthetic impressions are formed, and what it is that makes an infographic appealing. We address these questions by analyzing 1,278 participants' ratings on appeal after seeing infographics for 500ms. Our results establish that: 1) people form a reliable first impression of the appeal of an infographic based on a mere exposure effect, 2) this first impression is largely based on colorfulness and visual complexity, and 3) age, gender, and education level influence the preferred level of colorfulness and complexity. More generally, these findings suggest that outcomes such as engagement and memorability might be determined much earlier than previously thought.",
+  "supplemental":  [
+    { "name":"pdf", "ref":"pdf/harrison2014infographic.pdf" },
+    { "name":"materials", "ref":"https://github.com/TuftsVALT/infographic-aesthetics" }
+  ]
+},
+{
   "Category":  "Conference",
   "Key":       "brown2014eigensense",
   "Author":    "Eli T Brown, Remco Chang",
@@ -16,7 +33,7 @@
   "Key":          "brown2014finding",
   "Author":       "Eli Brown, Alvitta Ottley, Jieqiong Zhao, Quan Lin, Alex Endert, Richard Souvenir, Remco Chang",
   "Title":        "Finding Waldo: Learning about Users from their Interactions",
-  "Journal":      "To Appear: IEEE Conference on Visual Analytics (VAST)",
+  "Journal":      "IEEE Conference on Visual Analytics (VAST)",
   "Year":         "2014",
   "page":         "papers/finding-waldo",
   "img":          "img/preview/brown2014finding-preview.png",
@@ -33,7 +50,7 @@
   "Key":           "harrison2014ranking",
   "Author":        "Lane Harrison, Fumeng Yang, Steven Franconeri, Remco Chang",
   "Title":         "Ranking Visualizations of Correlation using Weber's Law",
-  "Journal":       "To Appear: IEEE Conference on Information Visualization (InfoVis)",
+  "Journal":       "IEEE Conference on Information Visualization (InfoVis)",
   "page":         "papers/ranking-correlation",
   "Year":          "2014",
   "img":           "img/preview/harrison2014ranking.png",
