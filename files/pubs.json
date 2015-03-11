@@ -1,12 +1,25 @@
 [
 {
   "Category":      "Conference",
+  "Key":           "ottley2015strategy",
+  "Author":        "Alvitta Ottley, Huahai Yang, Remco Chang",
+  "Title":         "Personality as a Predictor of User Strategy: How Locus of Control Affects Search Strategies on Tree Visualizations",
+  "Journal":       "Proc. ACM Human Factors in Computing Systems (CHI)",
+  "Year":          "2015",
+  "img":           "img/preview/ottley2015strategy-preview.png",
+  "abstract":     "Individual differences matter. While this has been the theme for many recent works in the Visualization and HCI communities, the mystery of how to develop personalized visualizations remains. This is largely because very little is known about how users actually use visualizations to solve problems and even less is known about how individual differences affect these problem-solving strategies. In this paper, we provide evidence that strategies are indeed influenced by individual differences. We demonstrate how the personality trait locus of control impacts strategies on hierarchical visualizations, and we introduce design recommendations for personalized visualizations.",
+  "supplemental":  [
+    { "name":"pdf", "ref":"pdf/ottley2015strategy.pdf" }
+  ]
+},
+{
+  "Category":      "Conference",
   "Key":           "harrison2014infographic",
   "Author":        "Lane Harrison, Katharina Reinecke, Remco Chang",
   "Title":         "Infographic Aesthetics: Designing for the First Impression",
   "Journal":       "To Appear: Proc. ACM Human Factors in Computing Systems (CHI)",
   "page":          "papers/infographic-aesthetics",
-  "Year":          "2014",
+  "Year":          "2015",
   "img":           "img/preview/harrison2014infographic-preview.png",
   "caption" :      "Average visual appeal ratings for different levels of colorfulness and complexity for females and males.",
   "teaser":       "img/teaser/harrison2014infographic.png",
