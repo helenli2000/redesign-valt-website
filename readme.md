@@ -1,19 +1,26 @@
 VALT-website
 ==========
 
-This is the website at [valt.cs.tufts.edu](http://valt.cs.tufts.edu).
+This repo is for our website at [valt.cs.tufts.edu](http://valt.cs.tufts.edu).
 
-Making Website Changes
-----------
+There are three components that require regular updates from the team: publications, news, and people.
 
-To make a change to the website, clone this repo, make changes, commit and push.
-Your changes won't show up on the actual website immediately. 
+Adding Publications
+---
 
-Send an email to Lane if you need something updated immediately. Otherwise, he will be updating the site on /r/valt with the contents of this repo weekly.
+To add a publication, edit `files/pubs.json`, and add a 128x64px preview image to `img/preview/`. As an example, see [this recent addition](https://github.com/TuftsVALT/valt-website/commit/a107b8ba916f5a23174e0e4017bbe5421426503f) from Alvitta.
 
-Note: you may need to chmod 664/775 new files so they can be accessed from the web.
+Adding People
+---
 
-Where did my experiment directories go?!
-----------
+To add a person, edit `files/people.json` and add a 200x200px headshot to `img/people`.
 
-The directory at /r/valt/public\_html contained a lot of random experiment directories. To keep things more organized, we are moving existing studies and future experiments to /r/valt/public\_html/studies.
+Adding News
+---
+
+To add a news item, edit `files/updates.json` and add a 200x200px related image to `img/news`.
+
+After You Make Changes
+---
+
+Your changes won't show up on the Tufts-hosted website immediately. Send an email to Lane when the content needs to be pushed to the server.
