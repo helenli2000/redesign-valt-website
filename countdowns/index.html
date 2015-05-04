@@ -27,7 +27,7 @@ body {
 <script>
   // TODO to add more countdowns, we need to make a deadlines.json file with the structure {"event": "VIS", "date": "2014,3,31,20"}. We can then build the page with d3.
   function updateCountdown() {
-    var count = countdown( new Date(2015, 2, 31, 20) ).toString();
+    var count = countdown( new Date( Date.UTC(2015, 2, 31, 24) ) ).toString();
     document.getElementById('countdown').innerHTML = "VIS 2015: " + count;
   }
   updateCountdown();
