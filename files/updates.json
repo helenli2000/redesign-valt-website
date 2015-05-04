@@ -1,15 +1,40 @@
 [
 {
+  "date": "18 April 2015",
+  "head": "Award",
+  "text": "Alvitta's paper, Personality as a Predictor of User Strategy: How Locus of Control Affects Search Strategies on Tree Visualizations, wins Honorable Mention Award at CHI 2015.",
+  "more":  "ottley2015personality",
+  "img": "img/news/chi2015.png"
+},
+{
+  "date": "1 April 2015",
+  "head": "Grant",
+  "text": "Remco received the NSF CAREER award for our work on data and user modeling from user interactions.",
+  "img": "img/news/nsf.png"
+},
+{
+  "date": "15 February 2015",
+  "head": "Award",
+  "text": "Sam's paper, Exploring Visualization Designs Using Phylogenetic Trees, wins Best Paper Award at VDA 2015.",
+  "img": "img/news/li2015exploring.png"
+},
+{
+  "date": "1 February 2015",
+  "head": "Grant",
+  "text": "VALT received a grant with MIT Lincoln Labs on Adaptive, Reinforced, and Interactive Visual Analytics.",
+  "img": "img/news/mitll.png"
+},
+{
   "date": "11 July 2014",
   "head": "New Paper",
-  "text": "Eli's paper, Finding Waldo: Learning about Users from their Interactions, accepted to IEEE VAST and TVCG!",
+  "text": "Eli's paper, Finding Waldo: Learning about Users from their Interactions, accepted to IEEE VAST and TVCG.",
   "more":  "brown2014finding",
   "img": "img/news/brown2014finding.png"
 },
 {
   "date": "11 July 2014",
   "head": "New Paper",
-  "text": "Lane's paper, Ranking Visualizations of Correlation using Weber's Law, accepted to IEEE InfoVis and TVCG!",
+  "text": "Lane's paper, Ranking Visualizations of Correlation using Weber's Law, accepted to IEEE InfoVis and TVCG.",
   "img": "img/news/harrison2014ranking.png",
   "more" : "harrison2014ranking"
 },
@@ -22,21 +47,14 @@
 {
   "date": "1 June 2014",
   "head": "Internship",
-  "text": "Alvitta is heading to IBM Research in San Jose, CA this summer!",
+  "text": "Alvitta is heading to IBM Research in San Jose, CA this summer.",
   "img": "img/news/ibm.png"
 },
 {
 
   "date": "1 June 2014",
   "head": "Internship",
-  "text": "Eli is heading to Microsoft Research in Redmond, WA this summer!",
+  "text": "Eli is heading to Microsoft Research in Redmond, WA this summer.",
   "img": "img/news/msft.jpg"
-},
-{
-
-  "date": "15 May 2014",
-  "head": "New Grant",
-  "text": "Remco receives a new grant from Tufts CTSI, <em>Development of the Prognosis Assessment for Active and Conservative Treatment Tool</em>.",
-  "img": "img/news/ctsi.jpg"
 }
 ]
