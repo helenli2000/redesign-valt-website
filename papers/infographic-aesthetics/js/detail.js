@@ -3,7 +3,7 @@ var pubs;
 
 d3.json('../../files/pubs.json', function(err, d) {
   if(err) return console.log(err);
-  pubs = d.filter(function(d) { return d.Key === "harrison2014infographic"; });
+  pubs = d.filter(function(d) { return d.Key === "harrison2015infographic"; });
   console.log(pubs);
   buildDivs(pubs);
 });
