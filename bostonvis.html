@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+<title>VALT - Visual Analytics Laboratory at Tufts</title>
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<script src="lib/d3.v3.min.js" charset="utf-8"></script>
+
+<style>
+@import url(style.css);
+@import url(fonts.css);
+
+p {
+  width: 920px;
+}
+
+.program{
+	font-family: "Istok Web";
+    src: url('fonts/Istok_Web/IstokWeb-Italic.ttf') format('truetype');
+	padding-left: 2.35cm;
+	line-height: 0%;
+    font-size: 15px;
+}
+
+.speaker{
+	font-family: "Istok Web";
+    src: url('fonts/Istok_Web/IstokWeb-Italic.ttf') format('truetype');
+	padding-left: 0.5cm;
+	font-size: 15px;
+	margin-bottom: -10%;
+	margin-top: 100px;
+	font-weight: bolder;
+}
+
+.time{
+	font-family: "Istok Web";
+    src: url('fonts/Istok_Web/IstokWeb-Italic.ttf') format('truetype');
+	font-size: 15px;
+	font-weight: bolder;
+
+}
+
+.event-title{
+	font-family: "Istok Web";
+    src: url('fonts/Istok_Web/IstokWeb-Italic.ttf') format('truetype');
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.address, .date, .tip{
+	font-family: "Istok Web";
+    src: url('fonts/Istok_Web/IstokWeb-Italic.ttf') format('truetype');
+	font-size: 14px;
+}
+
+.block-0{
+	background: #dddddd;
+}
+</style>
+
+<div class="sidebar">
+
+  <a href="/"><img class="logo" src="img/logo-2.png"/></a>
+
+   <div class="nav">
+    <a href="/publications.html" class="at">publications</a><br>
+    <a href="https://github.com/TuftsVALT" class="at">data/code</a><br>
+    <a href="/people.html" class="at">people</a><br>
+    <a href="/bostonvis.html" class="at">BostonVIS</a><br>
+    <a href="/directions.html" class="at">direction</a><br>
+  </div>
+
+</div>
+
+<div class="main" >
+
+  <div id="schedule">
+  </div>
+
+</div>
+
+<script src="js/main.js" charset="utf-8"></script>
+<script src="js/bostonvis.js" charset="utf-8"></script>
+
+</html>
