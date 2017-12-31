@@ -1,5 +1,32 @@
 [
 {
+  "Category":      "Workshop",
+  "Key":           "cashman2017rnnbow",
+  "Author":        "Dylan Cashman, Genevieve Patterson, Abigail Mosca, Remco Chang",
+  "Title":         "RNNbow: Visualizing Learning via Backpropagation Gradients in Recurrent Neural Networks",
+  "Journal":       "VIS 2017 Workshop on Visual Analytics in Deep Learning",
+  "Year":          "2017",
+  "img":           "img/preview/cashman2017rnnbow-preview.png",
+  "abstract":     "We present RNNbow, an interactive tool for visualizing the gradient flow during backpropagation training in recurrent neural networks. RNNbow is a web application that displays the relative gradient contributions from Recurrent Neural Network (RNN) cells in a neighborhood of an element of a sequence. By visualizing the gradient, as opposed to activations, it offers insight into how the network is learning. We use it to explore the learning of an RNN that is trained to generate code in the C programming language. We show how it uncovers insights into the vanishing gradient as well as the evolution of training as the RNN works its way through a corpus. We describe some future work in using RNNbow to illustrate the differences between RNN architectures and cell types.",
+  "supplemental":  [
+    { "name":"pdf", "ref":"pdf/cashman2017rnnbow.pdf" },
+    { "name": "Best Paper Award" }
+  ]
+},
+{
+  "Category":      "Conference",
+  "Key":           "hakone2016proact",
+  "Author":        "Anzu Hakone, Lane Harrison, Alvitta Ottley, Nathan Winters, Caitlin Gutheil, Paul K. J. Han, Remco Chang",
+  "Title":         "PROACT: Iterative Design of a Patient-Centered Visualization for Effective Prostate Cancer Health Risk Communication",
+  "Journal":       "IEEE Conference on Visual Analytics (VAST)",
+  "Year":          "2016",
+  "img":           "img/preview/hakone2016proact-preview.png",
+  "abstract":     "Prostate cancer is the most common cancer among men in the US, and yet most cases represent localized cancer for which the optimal treatment is unclear. Accumulating evidence suggests that the available treatment options, including surgery and conservative treatment, result in a similar prognosis for most men with localized prostate cancer. However, approximately 90% of patients choose surgery over conservative treatment, despite the risk of severe side effects like erectile dysfunction and incontinence. Recent medical research suggests that a key reason is the lack of patient-centered tools that can effectively communicate person- alized risk information and enable them to make better health decisions. In this paper, we report the iterative design process and results of developing the PROgnosis Assessment for Conservative Treatment (PROACT) tool, a personalized health risk commu- nication tool for localized prostate cancer patients. PROACT utilizes two published clinical prediction models to communicate the patients’ personalized risk estimates and compare treatment options. In collaboration with the Maine Medical Center, we conducted two rounds of evaluations with prostate cancer survivors and urologists to identify the design elements and narrative structure that effectively facilitate patient comprehension under emotional distress. Our results indicate that visualization can be an effective means to communicate complex risk information to patients with low numeracy and visual literacy. However, the visualizations need to be carefully chosen to balance readability with ease of comprehension. In addition, due to patients’ charged emotional state, an intuitive narrative.",
+  "supplemental":  [
+    { "name":"pdf", "ref":"pdf/hakone2016proact.pdf" }
+  ]
+},
+{
   "Category":      "Conference",
   "Key":           "ottley2015strategy",
   "Author":        "Alvitta Ottley, Huahai Yang, Remco Chang",

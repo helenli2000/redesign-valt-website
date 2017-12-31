@@ -1,5 +1,23 @@
 [
 {
+  "date": "16 August 2017",
+  "head": "Award",
+  "text": "Dylan's paper, RNNbow: Visualizing Learning via Backpropagation Gradients in Recurrent Neural Networks, wins Best Paper Award at VADL 2017",
+  "img": "img/news/dylan_rnnvis.png"
+},
+{
+  "date": "1 March 2017",
+  "head": "Grant",
+  "text": "VALT received a grant from DARPA in the Data Driven Discovery of Models program (d3m) in coordination with Georgia Tech and University of Wisconsin.",
+  "img": "img/news/darpa.JPG"
+},
+{
+  "date": "6 October 2016",
+  "head": "New Paper",
+  "text": "Anzu's paper, PROACT: Iterative Design of a Patient-Centered Visualization for Effective Prostate Cancer Health Risk Communication, was presented at IEEE VAST.",
+  "img": "img/news/anzu_proact.png"
+},
+{
   "date": "18 April 2015",
   "head": "Award",
   "text": "Alvitta's paper, Personality as a Predictor of User Strategy: How Locus of Control Affects Search Strategies on Tree Visualizations, wins Honorable Mention Award at CHI 2015.",
