@@ -24,22 +24,22 @@
   "name": "Marianne Procopio",
   "group": "Members",
   "title": "PhD Candidate",
-  "link": "",
-  "img": ""
+  "link": "https://www.eecs.tufts.edu/~procopio/",
+  "img": "img/people/marianne_headshot.jpg"
 },
 {
   "name": "Abigail Mosca",
   "group": "Members",
   "title": "PhD Student",
-  "link": "",
-  "img": ""
+  "link": "https://www.eecs.tufts.edu/~amosca01",
+  "img": "img/people/mosca.png"
 },
 {
   "name": "Shannon Robinson",
   "group": "Members",
   "title": "Post-Bac Student",
   "link": "",
-  "img": ""
+  "img": "img/people/shannon_headshot.jpg"
 },
 {
   "name": "Jared Chandler",
@@ -53,7 +53,7 @@
   "group": "Members",
   "title": "PostDoc",
   "link": "http://www.cs.tufts.edu/~dcashm01",
-  "img": ""
+  "img": "img/people/shah.jpg"
 },
 {
   "name": "Rob Jacob",
@@ -61,6 +61,13 @@
   "title": "Professor, HCI Lab",
   "link": "http://www.cs.tufts.edu/~jacob/",
   "img": "img/people/rob.png"
+},
+{
+  "name": "Leilani Battle",
+  "group": "Affiliates",
+  "title": "Postdoc, Interactive Data Lab at UW",
+  "link": "http://cs.umd.edu/~leilani/bio.html",
+  "img": "img/people/leilani_battle.jpg"
 },
 {
   "name": "Dan Afergan",
