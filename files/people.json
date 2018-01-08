@@ -52,7 +52,7 @@
   "name": "Shah Humayoun",
   "group": "Members",
   "title": "PostDoc",
-  "link": "http://www.cs.tufts.edu/~dcashm01",
+  "link": "http://www.cs.tufts.edu/~humayoun/",
   "img": "img/people/shah.jpg"
 },
 {
@@ -65,9 +65,16 @@
 {
   "name": "Leilani Battle",
   "group": "Affiliates",
-  "title": "Postdoc, Interactive Data Lab at UW",
+  "title": "Postdoc, University of Wisconsin",
   "link": "http://cs.umd.edu/~leilani/bio.html",
-  "img": "img/people/leilani_battle.jpg"
+  "img": "img/people/leilani_headshot.jpg"
+},
+{
+  "name": "Fumeng Yang",
+  "group": "Alumni",
+  "title": "MS, 2016<br>Brown University",
+  "link": "http://www.fmyang.com/",
+  "img": "img/people/fumeng.jpg"
 },
 {
   "name": "Dan Afergan",
