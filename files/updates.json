@@ -1,5 +1,17 @@
 [
 {
+  "date": "1 June 2018",
+  "head": "Internship",
+  "text": "Shannon is heading to MIT Lincoln Laboratory in Lexington, MA this summer.",
+  "img": "img/news/mitll.png"
+},
+{
+  "date": "1 June 2018",
+  "head": "Internship",
+  "text": "Dylan is heading to IBM Research in Cambridge, MA this summer.",
+  "img": "img/news/ibm.png"
+},
+{
   "date": "16 August 2017",
   "head": "Award",
   "text": "Dylan's paper, RNNbow: Visualizing Learning via Backpropagation Gradients in Recurrent Neural Networks, wins Best Paper Award at VADL 2017",
@@ -61,18 +73,5 @@
   "head": "Special Event",
   "text": "<a href=\"http://web.media.mit.edu/~ishii/\">Hiroshi Ishii</a> speaks on Vision-Driven: Beyond Tangible Bits, Towards Radical Atoms   <a href=\"http://bostonchilabs.org/ishii.html\">at the VALT and HCI Labs</a>.",
   "img": "img/news/ishii.jpg"
-},
-{
-  "date": "1 June 2014",
-  "head": "Internship",
-  "text": "Alvitta is heading to IBM Research in San Jose, CA this summer.",
-  "img": "img/news/ibm.png"
-},
-{
-
-  "date": "1 June 2014",
-  "head": "Internship",
-  "text": "Eli is heading to Microsoft Research in Redmond, WA this summer.",
-  "img": "img/news/msft.jpg"
 }
 ]
