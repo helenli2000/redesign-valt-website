@@ -14,32 +14,46 @@
   "img": "img/people/caroline.png"
 },
 {
-  "name": "Alvitta Ottley",
-  "group": "Members",
-  "title": "PhD Candidate",
-  "link": "http://www.eecs.tufts.edu/~alvittao/",
-  "img": "img/people/alvitta.jpg"
-},
-{
   "name": "Dylan Cashman",
   "group": "Members",
-  "title": "PhD Student",
-  "link": "http://www.uninhabitedman.com",
+  "title": "PhD Candidate",
+  "link": "http://www.cs.tufts.edu/~dcashm01",
   "img": "img/people/dylan.jpg"
+},
+{
+  "name": "Marianne Procopio",
+  "group": "Members",
+  "title": "PhD Candidate",
+  "link": "https://www.eecs.tufts.edu/~procopio/",
+  "img": "img/people/marianne_headshot.jpg"
+},
+{
+  "name": "Abigail Mosca",
+  "group": "Members",
+  "title": "PhD Student",
+  "link": "https://www.eecs.tufts.edu/~amosca01",
+  "img": "img/people/mosca.png"
+},
+{
+  "name": "Shannon Robinson",
+  "group": "Members",
+  "title": "Post-Bac Student",
+  "link": "",
+  "img": "img/people/shannon_headshot.jpg"
 },
 {
   "name": "Jared Chandler",
   "group": "Members",
-  "title": "MS Student",
+  "title": "PhD Candidate",
   "link": "http://www.eecs.tufts.edu/~chandler/",
   "img": "img/people/jared.jpg"
 },
 {
-  "name": "Anzu Hakone",
+  "name": "Shah Humayoun",
   "group": "Members",
-  "title": "MS Student",
-  "link": "http://anzuhakone.com/",
-  "img": "img/people/anzu.jpg"
+  "title": "PostDoc",
+  "link": "http://www.cs.tufts.edu/~humayoun/",
+  "img": "img/people/shah.jpg"
 },
 {
   "name": "Rob Jacob",
@@ -49,10 +63,23 @@
   "img": "img/people/rob.png"
 },
 {
-  "name": "Dan Afergan",
+  "name": "Leilani Battle",
   "group": "Affiliates",
-  "title": "PhD Candidate, HCI Lab",
-  "link": "http://www.cs.tufts.edu/~afergan/",
+  "title": "Postdoc, University of Wisconsin",
+  "link": "http://cs.umd.edu/~leilani/bio.html",
+  "img": "img/people/leilani_headshot.jpg"
+},
+{
+  "name": "Fumeng Yang",
+  "group": "Alumni",
+  "title": "MS, 2016<br>Brown University",
+  "link": "http://www.fmyang.com/",
+  "img": "img/people/fumeng.jpg"
+},
+{
+  "name": "Dan Afergan",
+  "group": "Alumni",
+  "title": "PhD, 2015, Google",
   "img": "img/people/dan.png"
 },
 {
@@ -87,20 +114,48 @@
   "name": "Jordan Crouser",
   "group": "Alumni",
   "title": "PhD, 2013<br>Smith College",
-  "link": "http://www.smith.edu/statistics/faculty_crouser.php",
+  "link": "http://www.science.smith.edu/~jcrouser/",
   "img": "img/people/jordan.png"
+},
+{
+  "name": "Anzu Hakone",
+  "group": "Alumni",
+  "title": "MS, 2017<br>Broad Institute",
+  "link": "http://anzuhakone.com/",
+  "img": "img/people/anzu.jpg"
 },
 {
   "name": "Samuel Li",
   "group": "Alumni",
-  "title": "MS, 2013<br>University of Oregon",
+  "title": "MS, 2013",
   "img": "img/people/saml.jpg"
+},
+{
+  "name": "Lane Harrison",
+  "group": "Alumni",
+  "title": "PostDoc<br>Worcester Polytechnic Institute",
+  "link": "http://web.cs.wpi.edu/~ltharrison/",
+  "img": "img/people/lane.jpg"
+},
+{
+  "name": "Eli Brown",
+  "group": "Alumni",
+  "title": "PhD, 2015<br>DePaul University",
+  "link": "http://www.cdm.depaul.edu/about/Pages/People/facultyinfo.aspx?fid=1311",
+  "img": "img/people/eli.jpg"
+},
+{
+  "name": "Alvitta Ottley",
+  "group": "Alumni",
+  "title": "PhD, 2016<br>Washington University in St. Louis",
+  "link": "https://www.cse.wustl.edu/~alvitta/",
+  "img": "img/people/alvitta.jpg"
 },
 {
   "name": "Connor Gramazio",
   "group": "Alumni",
-  "title": "BS, 2012<br>Brown University",
-  "link": "http://gramaz.io",
+  "title": "BS, 2012<br>Audible",
+  "link": "https://gramaz.io",
   "img": "img/people/connor.jpg"
 }
 ]

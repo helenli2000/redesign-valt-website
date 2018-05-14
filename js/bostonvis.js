@@ -35,8 +35,6 @@ function buildschedule() {
   .html(schedule[0].Date)
   .attr('class', 'event-time')
   
-
-
   var events = schedule.slice(1, schedule.length)
 
   var eventsSchedule = d3.select('#schedule').selectAll('.events')
