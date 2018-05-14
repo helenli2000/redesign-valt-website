@@ -1,0 +1,4 @@
+AuthUserFile /r/valt/.htpasswd-proact
+AuthName "VALT Password"
+AuthType Basic
+Require user proact

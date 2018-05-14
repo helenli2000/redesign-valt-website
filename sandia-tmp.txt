@@ -1,8 +1,0 @@
-// Add this back to updates later on
-{
-  "date": "15 October 2014",
-  "head": "Visitors from Sandia National Labs",
-  "text": "Dr. Laura McNamara and Dr. Laura Matzen will be visiting VALT and speaking at the Tufts CS Colloquium.",
-  "img": "img/news/sandia.jpg"
-},
-

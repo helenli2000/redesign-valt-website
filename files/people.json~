@@ -21,11 +21,11 @@
   "img": "img/people/alvitta.jpg"
 },
 {
-  "name": "Dylan Cashman",
+  "name": "Fumeng Yang",
   "group": "Members",
   "title": "PhD Student",
-  "link": "http://www.uninhabitedman.com",
-  "img": "img/people/dylan.jpg"
+  "link": "http://www.eecs.tufts.edu/~fyang/",
+  "img": "img/people/fumeng.jpg"
 },
 {
   "name": "Jared Chandler",
@@ -35,11 +35,11 @@
   "img": "img/people/jared.jpg"
 },
 {
-  "name": "Anzu Hakone",
+  "name": "Dylan Cashman",
   "group": "Members",
   "title": "MS Student",
-  "link": "http://anzuhakone.com/",
-  "img": "img/people/anzu.jpg"
+  "link": "http://www.uninhabitedman.com",
+  "img": "img/people/dylan.jpg"
 },
 {
   "name": "Rob Jacob",
@@ -56,11 +56,11 @@
   "img": "img/people/dan.png"
 },
 {
-  "name": "Fumeng Yang",
+  "name": "Jordan Crouser",
   "group": "Alumni",
-  "title": "MS, 2016 <br> Brown University",
-  "link": "http://www.fmyang.com",
-  "img": "img/people/fumeng.jpg"
+  "title": "PhD, 2013<br>Smith College",
+  "link": "http://www.smith.edu/statistics/faculty_crouser.php",
+  "img": "img/people/jordan.png"
 },
 {
   "name": "Eli Brown",
@@ -68,27 +68,12 @@
   "title": "PhD, 2015<br>DePaul University",
   "link": "http://www.eecs.tufts.edu/~ebrown/",
   "img": "img/people/eli.jpg"
-},
-{
+},{
   "name": "Lane Harrison",
   "group": "Alumni",
   "title": "PostDoc, 2015<br>Worcester Polytechnic Institute (WPI)",
   "link": "http://www.eecs.tufts.edu/~lane/",
   "img": "img/people/lane.jpg"
-},
-{
-  "name": "Rob Ruenes",
-  "group": "Alumni",
-  "title": "BS, 2015<br>Google Inc.",
-  "link": "http://www.eecs.tufts.edu/~rruene01/",
-  "img": "img/people/ruenes.jpg"
-},
-{
-  "name": "Jordan Crouser",
-  "group": "Alumni",
-  "title": "PhD, 2013<br>Smith College",
-  "link": "http://www.smith.edu/statistics/faculty_crouser.php",
-  "img": "img/people/jordan.png"
 },
 {
   "name": "Samuel Li",
@@ -102,5 +87,12 @@
   "title": "BS, 2012<br>Brown University",
   "link": "http://gramaz.io",
   "img": "img/people/connor.jpg"
+},
+{
+  "name": "Rob Ruenes",
+  "group": "Alumni",
+  "title": "Undergrad,2015 <br>Google Inc.",
+  "link": "http://www.eecs.tufts.edu/~rruene01/",
+  "img": "img/people/ruenes.jpg"
 }
 ]

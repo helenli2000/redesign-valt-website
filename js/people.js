@@ -28,7 +28,6 @@ function buildgroups() {
 
   // append year as header
   groups.append('h1').text(function(d) { return d.key; });
-
   groups.each(buildpeople);
 }
 
@@ -41,7 +40,7 @@ function buildpeople() {
     .attr('href', function(d) { 
       if(d.link) return d.link; 
       else return "";
-    });
+    })
 
   divs.append('div')
     .classed('headshot', true)
