@@ -2,6 +2,12 @@
 {
   "date": "1 June 2018",
   "head": "Internship",
+  "text": "Abigail is heading to the National Renewable Energy Lab in Golden, CO this summer.",
+  "img": "img/news/nrel-square.jpg"
+},
+{
+  "date": "1 June 2018",
+  "head": "Internship",
   "text": "Shannon is heading to MIT Lincoln Laboratory in Lexington, MA this summer.",
   "img": "img/news/mitll.png"
 },
