@@ -37,9 +37,16 @@
 {
   "name": "Shannon Robinson",
   "group": "Members",
-  "title": "Post-Bac Student",
+  "title": "PhD Student",
   "link": "",
   "img": "img/people/shannon_headshot.jpg"
+},
+{
+  "name": "Kenny Alperin",
+  "group": "Members",
+  "title": "MSc Student",
+  "link": "",
+  "img": "img/people/kenny_headshot.jpg"
 },
 {
   "name": "Jared Chandler",
@@ -65,7 +72,7 @@
 {
   "name": "Leilani Battle",
   "group": "Affiliates",
-  "title": "Postdoc, University of Wisconsin",
+  "title": "Professor, University of Maryland",
   "link": "http://cs.umd.edu/~leilani/bio.html",
   "img": "img/people/leilani_headshot.jpg"
 },
@@ -81,13 +88,6 @@
   "group": "Alumni",
   "title": "PhD, 2015, Google",
   "img": "img/people/dan.png"
-},
-{
-  "name": "Fumeng Yang",
-  "group": "Alumni",
-  "title": "MS, 2016 <br> Brown University",
-  "link": "http://www.fmyang.com",
-  "img": "img/people/fumeng.jpg"
 },
 {
   "name": "Eli Brown",
@@ -129,20 +129,6 @@
   "group": "Alumni",
   "title": "MS, 2013",
   "img": "img/people/saml.jpg"
-},
-{
-  "name": "Lane Harrison",
-  "group": "Alumni",
-  "title": "PostDoc<br>Worcester Polytechnic Institute",
-  "link": "http://web.cs.wpi.edu/~ltharrison/",
-  "img": "img/people/lane.jpg"
-},
-{
-  "name": "Eli Brown",
-  "group": "Alumni",
-  "title": "PhD, 2015<br>DePaul University",
-  "link": "http://www.cdm.depaul.edu/about/Pages/People/facultyinfo.aspx?fid=1311",
-  "img": "img/people/eli.jpg"
 },
 {
   "name": "Alvitta Ottley",
