@@ -24,3 +24,4 @@ After You Make Changes
 ---
 
 Your changes won't show up on the Tufts-hosted website immediately. Send an email to Lane when the content needs to be pushed to the server.
+
