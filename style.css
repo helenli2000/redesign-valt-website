@@ -12,9 +12,14 @@ p {
   width: 720px;
 }
 
+.slide {
+  width: 960px;
+  height: 480px;
+  border-radius: 20px;
+}
+
 #header img {
-  width: 480px;
-  height: 240px;
+  width: 960px;
   border-radius: 8px;
 }
 
