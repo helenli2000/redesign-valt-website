@@ -13,13 +13,14 @@ p {
 }
 
 .slide {
-  width: 960px;
+  width: 480px;
   height: 480px;
   border-radius: 20px;
 }
 
 #header img {
-  width: 960px;
+  width: 480px;
+  height: 480px;
   border-radius: 8px;
 }
 
