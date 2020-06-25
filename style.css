@@ -12,7 +12,7 @@ p {
   width: 720px;
 }
 
-#slide img {
+.slide img {
   width: 960px;
   border-radius: 8px;
 }
