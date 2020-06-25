@@ -26,15 +26,39 @@
     <a href="/directions.html" class="at">directions</a><br>
   </div>
 
-</div>
+</div> 
+
+<style>
+  .mySlides {display:none;}
+</style>
 
 <div class="main">
 
   <div id="header">
     <h1> Visual Analytics Lab @ Tufts </h1>
-    <img src="img/valt2017smallcrop.jpg">
+    <img class="mySlides" src="img/people/alvitta.jpg">
+    <img class="mySlides" src="img/people/anzu.jpg">
+    <img class="mySlides" src="img/people/ashley.jpg">
+    <img class="mySlides" src="img/people/caroline.jpg">
   </div>
-
+  
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
   <div id="recentpubs">
     <h3>Recent Publications</h3>
   </div>
