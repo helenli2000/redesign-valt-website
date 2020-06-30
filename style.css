@@ -12,14 +12,18 @@ p {
   width: 720px;
 }
 
-#slidecaption {
-  color: #000;
-  font-size: 80 px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 16 px;
-  width: 100%;
-  text-align: center;
+figure {
+  border: 1px;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption{
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align:center;
 }
 
 #header img {
