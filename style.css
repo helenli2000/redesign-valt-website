@@ -12,20 +12,6 @@ p {
   width: 720px;
 }
 
-figure {
-  border: 1px;
-  padding: 4px;
-  margin: auto;
-}
-
-figcaption{
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align:center;
-}
-
 #header img {
   width: 640px;
   height: 480px;
