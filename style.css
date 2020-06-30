@@ -12,6 +12,16 @@ p {
   width: 720px;
 }
 
+#slidetext {
+  color: #f2f2f2;
+  font-size: 15 px;
+  padding: 8px 12 px;
+  position: absolute;
+  bottom: 8 px;
+  width: 100%;
+  text-align: center;
+}
+
 #header img {
   width: 760px;
   height: 480px;

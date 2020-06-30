@@ -33,27 +33,16 @@
 
   <div id="header">
     <img class="slide" src="img/people/alvitta.jpg">
+      <div id="slidetext">Article One</div>
     <img class="slide" src="img/people/anzu.jpg">
+      <div id="slidetext">Article Two</div>
     <img class="slide" src="img/people/ashley.png">
+      <div id="slidetext">Article Three</div>
     <img class="slide" src="img/people/caroline.png">
+      <div id="slidetext">Article Four</div>
   </div>
   
-  <script>
-    var myIndex = 0;
-    carousel();
-    
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("slide");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
-      }
-      myIndex++;
-      if (myIndex > x.length) {myIndex = 1}    
-      x[myIndex-1].style.display = "block";  
-      setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-    </script>
+  <script src="js/slideshow.js" charset="utf-8"></script>>
 
   <div id="recentpubs">
     <h3>Recent Publications</h3>
