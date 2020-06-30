@@ -14,16 +14,16 @@ p {
 
 #slidetext {
   color: #f2f2f2;
-  font-size: 15 px;
-  padding: 8px 12 px;
+  font-size: 40 px;
+  padding: 8px 12px;
   position: absolute;
-  bottom: 8 px;
+  bottom: 16 px;
   width: 100%;
   text-align: center;
 }
 
 #header img {
-  width: 760px;
+  width: 640px;
   height: 480px;
   border-radius: 8px;
 }
