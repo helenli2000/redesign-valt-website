@@ -12,21 +12,6 @@ p {
   width: 720px;
 }
 
-.carousel-caption {
-  width:100%;
-  height:100%;
-  left:0 !important;
-}
-
-.carousel-caption h3 {
-  text-align: center;
-  margin-top: 5%;
-}
-.carousel-caption p {
-  text-align: center;
-  margin-top:70%;
-}
-
 #header img {
   width: 640px;
   height: 480px;
